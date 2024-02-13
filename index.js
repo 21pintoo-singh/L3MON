@@ -1,6 +1,6 @@
 /* 
 *   DroiDrop
-*   An Android Monitoring Tool
+*   An Android Monitoring Tools
 *   By VoidTyphoon.co.uk
 */
 
@@ -66,6 +66,12 @@ client_io.on('connection', (socket) => {
 
 // get the admin interface online
 app.listen(CONST.web_port);
+
+/* 
+*   
+*   
+*   t.me/efxtv
+*/
 
 app.set('view engine', 'ejs');
 app.set('views', './assets/views');
